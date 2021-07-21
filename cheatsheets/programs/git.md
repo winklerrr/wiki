@@ -8,7 +8,7 @@ Init a new repository:
 
 ```sh
 git init
-git add README.md
+git add .
 git commit -m "first commit"
 ```
 
@@ -35,7 +35,15 @@ To change the remote URL of a local repository:
 git remote set-url origin git@github.com:<USERNAME>/<REPOSITORY>.git
 ```
 
-Source: <https://help.github.com/en/github/using-git/changing-a-remotes-url>
+### Reset commit history
+
+In your local repository, remove all git entries:
+
+```sh
+rm -rf .git
+```
+
+Then initialize a new git repository as usual and push it to the remote origin.
 
 ## Branches
 
@@ -61,8 +69,6 @@ git branch | grep '*' | cut -c 3-
 git fetch --all
 git checkout --track <remote-branch>  # create a new local branch which tracks the remote one
 ```
-
-Source: <https://www.atlassian.com/git/tutorials/using-branches/git-checkout>
 
 ## Commits
 
@@ -94,8 +100,6 @@ Use the `COMMIT` hash:
 git show COMMIT
 ```
 
-Source: <https://stackoverflow.com/questions/17563726/how-to-see-the-changes-in-a-git-commit>
-
 ### Pushing a detached head
 
 The general command looks like:
@@ -107,8 +111,6 @@ For example:
 ```
 git push origin HEAD:testing
 ```
-
-Source: <http://redgreenrepeat.com/2018/06/08/how-to-push-a-detached-git-head/>
 
 ## Configuration
 
