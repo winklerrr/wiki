@@ -2,7 +2,7 @@
 
 ## ssh-config
 
-To enable repository connections to GitHub via ssh calls, add `~/.ssh/config`:
+To enable repository connections to GitHub via ssh calls, add the following lines to `~/.ssh/config`:
 
 ```
 Host github.com
@@ -12,7 +12,7 @@ Host github.com
 
 ## wsl.conf
 
-In the WSL system, add `/etc/wsl.conf`:
+In the WSL system, add the following lines to `/etc/wsl.conf`:
 
 ```
 [automount]
