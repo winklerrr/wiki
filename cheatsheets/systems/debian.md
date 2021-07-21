@@ -1,37 +1,40 @@
 # Debian
 
-Debian has three different releases:
+Debian has three different release class:
 
-- stable (codename: `buster`)
-- testing (codename: `bullseye`)
-- unstable (codename: `sid`)
+- stable
+- testing
+- unstable
 
-The default Debian installation is of course based on the stable release.
-The codenames changes accordingly with each new release.
+The default Debian installation is based on the stable release class.
+Additionally, each release has a codename.
 
+## Upgrading to Testing
 
-**Upgrading to Testing**
+To upgrade Debian to the testing release:
 
-To upgrade Debian to the testing release, do:
-```
+```sh
 cd /etc/apt/
 
 # create backup
 sudo cp sources.list sources.list.backup
 ```
 
-In `sources.list` the release name (`buster`, `bullseye`, etc.) or the release class (`stable`, `testing`, etc.) needs to be set.
+In `sources.list` the release name (e.g. `buster`, `bullseye`, etc.) or the release class (i.e. `stable`, `testing`, etc.) needs to be set.
 Furthermore, the server needs to be chosen. 
-A list of all avaible Debian servers can be found (here)[https://www.debian.org/mirror/list].
+A list of all avaible Debian servers can be found on <https://www.debian.org/mirror/list>.
 
+### Example
 
 So, for example, this can be set:
-```
+
+```sh
 deb http://ftp.de.debian.org/debian/ testing main
 ```
 
 Now update the system:
-```
+
+```sh
 sudo apt update
 sudo apt upgrade
 sudo apt dist-upgrade
