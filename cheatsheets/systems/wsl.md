@@ -2,7 +2,7 @@
 
 ## ssh-config
 
-To enable repository connections to GitHub via ssh calls, add the following lines to `~/.ssh/config`:
+To enable repository connections to GitHub via ssh calls, in the WSL system, add the following lines to `~/.ssh/config`:
 
 ```
 Host github.com
