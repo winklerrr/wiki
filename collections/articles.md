@@ -10,6 +10,7 @@
 
 - [Minimal Viable Programs](https://joearms.github.io/#2014-06-25%20Minimal%20Viable%20Programs) (Joe Armstrong)
 - [Structure and Interpretation of Computer Programs](http://sarabander.github.io/sicp/) (Sara Bander)
+- [Defensive Bash Programming](https://kfirlavi.herokuapp.com/blog/2012/11/14/defensive-bash-programming/) (Kfir Lavi)
 
 ## Security
 
