@@ -15,3 +15,4 @@
 ## Security
 
 - [WAF evasion techniques](https://blog.isec.pl/waf-evasion-techniques/) (blog.isec.pl)
+- [Hacking a wordpress site](https://resources.infosecinstitute.com/topic/hacking-a-wordpress-site/) (infosecinstitute.com)
