@@ -1,12 +1,14 @@
 # Kali Linux with VirtualBox
 
-> The more quieter you become, the more able you are to hear.
-
-Rumi
+Kali Linux is a distribution for professional penetration testers
 
 > If you need to ask, then Kali Linux is not the right distribution for you.
 
-[Unix Exchange](https://unix.meta.stackexchange.com/a/5361/224262)
+&mdash; [Gilles on UnixExchange](https://unix.meta.stackexchange.com/a/5361/224262)
+
+> The more quieter you become, the more able you are to hear.
+
+&mdash; [Rumi](https://www.goodreads.com/quotes/6822193-the-quieter-you-become-the-more-you-are-able-to)
 
 
 ## Shared Folder
