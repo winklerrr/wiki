@@ -20,13 +20,15 @@ How to add a shared folder in VirtualBox running `Kali Linux 2021.3` as guest an
 
 1. In Windows, create a folder called `shared`
 
-1. In VirtualBox, go to `Devices > Shared Folders > Shared Folder Settings`
+1. In VirtualBox, go to `Devices > Shared Folders > Shared Folder Settings`:
+
    ![][1]
    
-   Add a new share with the settings `auto mount` and `permanent` enabled
+   Add a new share with the checkboxes `Auto-mount` and `Make permanent` enabled:
+
    ![][2]
    
-1. In Kali, allow access to the shared folder and then reboot the system for the changes to take effect via:
+1. In Kali, allow access to the shared folder and then reboot the system for the changes to take effect, via:
 
    ```sh
    sudo adduser kali vboxsf && reboot
@@ -34,7 +36,7 @@ How to add a shared folder in VirtualBox running `Kali Linux 2021.3` as guest an
 
    (Without the `vboxsf` user group, a `permission denied` error will be shown when trying to access the shared folder)
 
-1. In Kali, add a symbolic link to the desktop for the shared folder via:
+1. In Kali, add a symbolic link to the desktop for the shared folder, via:
 
    ```sh
    ln -s /media/sf_shared /home/kali/Desktop
