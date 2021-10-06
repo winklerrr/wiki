@@ -1,6 +1,6 @@
 # Kali Linux with VirtualBox
 
-Kali Linux is a distribution for professional penetration testers
+Kali Linux is a distribution for professional penetration testers.
 
 > If you need to ask, then Kali Linux is not the right distribution for you.
 
