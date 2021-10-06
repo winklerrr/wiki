@@ -1,6 +1,9 @@
-# Kali Linux with VirtualBox
+# Kali Linux 2021.3 with VirtualBox
 
-Kali Linux is a distribution for professional penetration testers.
+Kali Linux is a distribution for professional penetration testers.  
+The download can be found here: <https://www.kali.org/get-kali/>
+
+## Quotes
 
 > If you need to ask, then Kali Linux is not the right distribution for you.
 
