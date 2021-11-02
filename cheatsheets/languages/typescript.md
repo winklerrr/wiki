@@ -20,9 +20,11 @@ You can init your project with this:
 mkdir project && cd project
 npm init
 npm install --save-dev typescript @types/node ts-node
-npx tsc --init --rootDir src --outDir dist --lib es2020
+npx tsc --init --rootDir src --outDir dist --lib esnext
 mkdir src && touch src/index.ts
 ```
+
+For the available `lib` versions, check the [official docu][1]
 
 Start your IDE (preferrably VScode via `code .`) and add the following scripts to your `package.json` for CLI execution:
 
@@ -65,3 +67,4 @@ const args = yargs.options({
 console.log(args);
 ```
 
+  [1]: https://www.typescriptlang.org/tsconfig#lib
