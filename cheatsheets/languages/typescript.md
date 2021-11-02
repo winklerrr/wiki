@@ -25,21 +25,16 @@ mkdir src && touch src/index.ts
 Start your IDE (preferrably VScode via `code .`) and add the following scripts to your `package.json` for CLI execution:
 
 ```json
-// package.json
-[...]
-
 "scripts": {
   "start": "ts-node src/index.ts",
   "live": "tsc -w -p ."
 }
-
-[...]
 ```
 
 You can now start your TypeScript CLI with:
 
-- `npm run` or `npm run start` - run your tool 
-- `npm run live` - compile all `.ts` files according to your `ts-config.json`
+- `npm run start` - run your tool 
+- `npm run live` - hot compile all `.ts` files according to your `ts-config.json`
 
 have fun and happy coding!
 
