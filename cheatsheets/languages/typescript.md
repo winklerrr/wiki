@@ -1,8 +1,10 @@
 # TypeScript CheatSheet
 
-Make sure to have TypeScript installed:
+Make sure to have Node.js and TypeScript installed:
 
 ```sh
+sudo apt update && sudo apt upgrade
+sudo apt install nodejs
 npm install -g typescript@next
 ```
 
