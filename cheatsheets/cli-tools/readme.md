@@ -1,10 +1,10 @@
 # CLI Tools
 
-## Basics
+## Finding Information
 
-- `dirname PATH` - output the directory name of the given path
+It's all about information!
 
-### Finding Information: Commands
+### Commands
 
 Replace `COMMAND` accordingly:
 
@@ -17,10 +17,11 @@ Replace `COMMAND` accordingly:
 You can use `help -m COMMAND | less` to show the help page in the typicall `man` style.
 On <https://askubuntu.com/a/439411/478654> is a nice solution for a function to show either the man page or if there is no man page to show the help page instead.
 
-### Finding Information: Files
+### Files
 
 To find files, information about them, and information in them, use the following commands:
 
+- `dirname PATH` - output the directory name 
 - `find . -type f -name "FILENAME"` - search files by their name
 - `grep -E -i 'REGEX-SEARCH-TERM' FILE` - search content with regex interpolation and case insensetive 
 
