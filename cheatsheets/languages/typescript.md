@@ -6,7 +6,11 @@ Make sure to have TypeScript installed:
 npm install -g typescript@next
 ```
 
-## Init Project
+## How to setup a TypeScript CLI?
+
+For creating CLI applications, TypeScript can be really useful 
+
+### Init Project
 
 You can init your project with this:
 
@@ -18,20 +22,28 @@ npx tsc --init --rootDir src --outDir dist --lib es2020
 mkdir src && touch src/index.ts
 ```
 
-Now add this to your `package.json`:
+Start your IDE (preferrably VScode via `code .`) and add the following scripts to your `package.json` for CLI execution:
 
 ```json
 // package.json
-...
+[...]
+
 "scripts": {
-  "start": "ts-node src/index.ts"
+  "start": "ts-node src/index.ts",
+  "live": "tsc -w -p ."
 }
-...
+
+[...]
 ```
 
-Start IDE `code .` and let's go!
+You can now start your TypeScript CLI with:
 
-## CLI Input
+- `npm run` or `npm run start` - run your tool 
+- `npm run live` - compile all `.ts` files according to your `ts-config.json`
+
+have fun and happy coding!
+
+### CLI Input
 
 To accept CLI input, use `yargs`:
 
