@@ -10,7 +10,13 @@ npm install -g typescript@next
 
 ## How to setup a TypeScript CLI?
 
-For creating CLI applications, TypeScript can be really useful 
+For creating CLI applications, TypeScript can be really useful.
+Remember: for most frameworks a init procedure is available, for example:
+
+```sh
+npx create-react-app my-reactjs-app --typescript
+npx create-next-app my-nextjs-app --typescript
+```
 
 ### Init Project
 
