@@ -11,7 +11,7 @@ Available as web application for instant usage.
 - **[figma.com][3]** - graphic designer alternative to Adobe Illustrator, Adobe XD, Sketch, etc.
 - **[fontflipper.com][4]** - simple UI to test out different font styles in self uploaded graphic
 
-## Extensions
+## Browser Extensions
 
 Extends the capability of your browser.
 
@@ -19,6 +19,13 @@ Extends the capability of your browser.
 
 - **[VisBug][5]** - open source web design debug tools: *FireBug for designers › Edit any webpage, in any state* ([demo][6])
 
+## VSCode Extensions
+
+Power-up your favorite code editor.
+
+- **Quokka** - execute JS inline
+- **JS Doc** - automatically create function doc
+- **Auto Rename Tag** - for working with HTML
 
 ## Windows
 
