@@ -17,20 +17,18 @@ Official webpage: <https://daringfireball.net/projects/markdown/>
 1. [Example](#example)
 2. [Second Example](#second-example)
 
-### Example
+# Example
 
-### Second Example
+# Second Example
 ```
 
-Result:
+### Results
 
 ---
 
 1. [Example](#example)
 2. [Second Example](#second-example)
 
-### Example
+#### Example
 
-### Second Example
-
----
+#### Second Example
