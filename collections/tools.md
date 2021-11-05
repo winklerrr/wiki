@@ -1,6 +1,6 @@
 # Tools
 
-A list of useful tools.
+A list of useful tools for every day work and fun.
 
 ## Web-Apps
 
@@ -10,27 +10,19 @@ Available as web application for instant usage.
 
 - **[figma.com][3]** - graphic designer alternative to Adobe Illustrator, Adobe XD, Sketch, etc.
 - **[fontflipper.com][4]** - simple UI to test out different font styles in self uploaded graphic
-- **[dribbble.com][9]** - plattform to discover page transitions, designs, illustrations, and more
+- **[dribbble.com][9]** - platform to discover page transitions, designs, illustrations, and more
 
 ## Browser Extensions
 
 Extends the capability of your browser.
 
-### Development
+### Web Development
 
 - **[VisBug][5]** - open source web design debug tools: *FireBug for designers › Edit any webpage, in any state* ([demo][6])
 
-## VSCode Extensions
-
-Power-up your favorite code editor.
-
-- **Quokka** - execute JS inline
-- **JS Doc** - automatically create function doc
-- **Auto Rename Tag** - for working with HTML
-
 ## Windows
 
-Works on your whole Windwows system.
+Works on your whole Windows system.
 
 ### Productivity
 
@@ -42,7 +34,7 @@ Works on your whole Windwows system.
 - **[Insomnia][7]** - REST API dev tool
 - **[Postman][8]** - REST API dev tool
 
-
+---
 
   [1]: https://github.com/microsoft/PowerToys/releases/latest/
   [2]: https://www.screentogif.com/
