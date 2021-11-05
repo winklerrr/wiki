@@ -32,7 +32,7 @@ npx tsc --init --rootDir src --outDir dist --lib esnext
 mkdir src && touch src/index.ts
 ```
 
-For the available `lib` versions, check the [official documentation][1].
+For the available `lib` versions, check the [official documentation][tsconfig-lib].
 
 For the linting/styling part, add the following packages:
 
@@ -58,12 +58,22 @@ Your `.prettierrc` should look like this:
 
 ```json
 {
+  "arrowParens": true,
+  "bracketSameLine": false,
+  "bracketSpacing": true,
+  "endOfLine": "auto",
+  "jsxSingleQuote": false,
+  "printWidth": 120,
+  "quoteProps": "as-needed",
   "semi": true,
-  "trailingComma": "all",
   "singleQuote": true,
-  "printWidth": 80
+  "tabWidth": 2,
+  "trailingComma": "all",
+  "useTabs": false
 }
 ```
+
+All the options are described [here][prettier-options].
 
 Add some start scripts to your `package.json` for CLI execution:
 
@@ -114,4 +124,5 @@ const args = yargs.options({
 console.log(args);
 ```
 
-[1]: https://www.typescriptlang.org/tsconfig#lib
+[tsconfig-lib]: https://www.typescriptlang.org/tsconfig#lib
+[prettier-options]: https://prettier.io/docs/en/options.html
