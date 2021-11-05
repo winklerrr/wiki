@@ -10,6 +10,7 @@ Available as web application for instant usage.
 
 - **[figma.com][3]** - graphic designer alternative to Adobe Illustrator, Adobe XD, Sketch, etc.
 - **[fontflipper.com][4]** - simple UI to test out different font styles in self uploaded graphic
+- **[dribbble.com][9]** - plattform to discover page transitions, designs, illustrations, and more
 
 ## Browser Extensions
 
@@ -51,3 +52,4 @@ Works on your whole Windwows system.
   [6]: https://visbug.web.app/
   [7]: https://insomnia.rest/
   [8]: https://postman.com/
+  [9]: https://dribbble.com/
