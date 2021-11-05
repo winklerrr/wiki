@@ -15,6 +15,6 @@ On your main operating system:
 - [Consent Manager][2] - browser extension to automatically select only the functional cookies and remove the cookie banners
 - [StartPage][3] - most private search engine (based on Google), has awesome proxy feature called "anonymous view" to view specific search results even more privately
 
-  [1]: https://brave.com/
-  [2]: https://chrome.google.com/webstore/detail/consent-manager/gpkoajillfmlpnglbagpplnphadbfalh
-  [3]: https://startpage.com/
+[1]: https://brave.com/
+[2]: https://chrome.google.com/webstore/detail/consent-manager/gpkoajillfmlpnglbagpplnphadbfalh
+[3]: https://startpage.com/

@@ -7,16 +7,15 @@ For WSL use `clip.exe` instead!
 
 To copy/paste console output install `xclip`:
 
-```
+```sh
 sudo apt install xclip
 ```
-
 
 ## Basic Usage
 
 To use `xclip` do:
 
-```
+```sh
 # copy
 cat file | xclip
 
@@ -28,7 +27,7 @@ xclip -o
 
 To copy/paste to the system clipboard use:
 
-```
+```sh
 # copy
 cat file | xclip -selection clipboard
 cat file | xclip -sel clip
@@ -42,7 +41,7 @@ xclip -sel clip -o
 
 For better usability create an alias like:
 
-```
+```sh
 alias "cs=xclip -sel clip"
 alias "vs=xclip -sel clip -o"
 ```

@@ -17,7 +17,7 @@ The recommended version of the shebang line looks like this:
 #!/usr/bin/env bash
 ```
 
-This line will make sure that also other bash installations on the system will be considered even if they are installed in another location different from `/bin/bash` (for example: when updating to a new bash verson with Homebrew on macOS).
+This line will make sure that also other bash installations on the system will be considered even if they are installed in another location different from `/bin/bash` (for example: when updating to a new bash version with Homebrew on macOS).
 
 This allows the script to be executed in the following manner:
 
@@ -26,7 +26,6 @@ This allows the script to be executed in the following manner:
 ```
 
 (The script needs to be marked as executable. Otherwise just call the interpreter directly: `bash script.sh`)
-
 
 ## Variables
 
@@ -61,7 +60,6 @@ function_name () {
 }
 ```
 
-
 ### Function Arguments
 
 - `$1`, `$2`, ..., `$n`: The passed arguments corresponding to the position of the argument after the functions name.
@@ -70,7 +68,6 @@ function_name () {
 - `$@`: All passed arguments. When double quoted `"$@"` expands to separate strings: `"$1" "$2" ... "$n"`.
 - `$*`: All passed arguments. When double quoted `"$*"` expands to a single string: `"$1 $2 ... $n"`.
 - `$?`: The exit status of the most recently run process.
-
 
 ## Condionals
 

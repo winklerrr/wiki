@@ -13,7 +13,6 @@ The download can be found here: <https://www.kali.org/get-kali/>
 
 &mdash; [Rumi](https://www.goodreads.com/quotes/6822193-the-quieter-you-become-the-more-you-are-able-to)
 
-
 ## Shared Folder
 
 How to add a shared folder in VirtualBox running `Kali Linux 2021.3` as guest and `Windows 10` as host:
@@ -22,12 +21,12 @@ How to add a shared folder in VirtualBox running `Kali Linux 2021.3` as guest an
 
 1. In VirtualBox, go to `Devices > Shared Folders > Shared Folder Settings`:
 
-   ![][1]
-   
+   ![vb-settings][1]
+
    Add a new share with the checkboxes `Auto-mount` and `Make permanent` enabled:
 
-   ![][2]
-   
+   ![vb-settings][2]
+
 1. In Kali, allow access to the shared folder and then reboot the system for the changes to take effect, via:
 
    ```sh

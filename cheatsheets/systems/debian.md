@@ -21,7 +21,7 @@ sudo cp sources.list sources.list.backup
 ```
 
 In `sources.list` the release name (e.g. `buster`, `bullseye`, etc.) or the release class (i.e. `stable`, `testing`, etc.) needs to be set.
-Furthermore, the server needs to be chosen. 
+Furthermore, the server needs to be chosen.
 A list of all avaible Debian servers can be found on <https://www.debian.org/mirror/list>.
 
 ### Example

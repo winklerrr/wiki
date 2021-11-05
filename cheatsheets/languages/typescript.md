@@ -43,7 +43,7 @@ Start your IDE (preferrably VScode via `code .`) and add the following scripts t
 
 You can now start your TypeScript CLI with:
 
-- `npm run start` - run your tool 
+- `npm run start` - run your tool
 - `npm run live` - hot compile all `.ts` files according to your `ts-config.json`
 
 have fun and happy coding!
@@ -62,15 +62,15 @@ Then use it like this:
 ```js
 // src/index.ts
 
-import yargs from 'yargs';
+import yargs from "yargs";
 
 const args = yargs.options({
-  'api-key': { type: 'string', demandOption: true, alias: 'a' },
-  'url': { type: 'string', demandOption: true, alias: 'u' },
-  'instructions': { type: 'array', demandOption: true, alias: 'i' },
+  "api-key": { type: "string", demandOption: true, alias: "a" },
+  url: { type: "string", demandOption: true, alias: "u" },
+  instructions: { type: "array", demandOption: true, alias: "i" },
 }).argv;
 
 console.log(args);
 ```
 
-  [1]: https://www.typescriptlang.org/tsconfig#lib
+[1]: https://www.typescriptlang.org/tsconfig#lib

@@ -8,7 +8,6 @@
 - **Command line:** To enter the tmux command line, hit `<PRE>` and `:`
 - `<PRE>?` - show help
 
-
 ## Session management
 
 - `tmux new [-s name]` (`:new`) - create a new session with `name`
@@ -48,7 +47,7 @@
 ### Switching
 
 - `<PRE>q` - show pane numbers
-- `<PRE>q0..9` -  switch to pane
+- `<PRE>q0..9` - switch to pane
 - `<PRE>;` - switch to last active pane
 - `<PRE>{` - move the current pane left
 - `<PRE>}` - move the current pane right

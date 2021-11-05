@@ -1,4 +1,4 @@
-# Frameworks 
+# Frameworks
 
 A collection of pretty neat dev frameworks.
 
@@ -13,16 +13,16 @@ But there are many frameworks written for Node.js:
 
 ## CSS
 
-- **Carbon** by IBM - consisting of the [Carbon Design System][1] & its [Carbon Components][2] 
+- **Carbon** by IBM - consisting of the [Carbon Design System][1] & its [Carbon Components][2]
 - **[Bootstrap][3]** - the world’s most popular framework for building responsive, mobile-first sites, with jsDelivr and a template starter page
 
 ## Mobile
 
-- **[Cordova][4]** by Apache - mobile apps with HTML, CSS, JS with one source for all plattforms
+- **[Cordova][4]** by Apache - mobile apps with HTML, CSS, JS with one source for all platforms
 
-  [1]: https://www.carbondesignsystem.com/
-  [2]: https://the-carbon-components.netlify.com/
-  [3]: https://getbootstrap.com/
-  [4]: https://cordova.apache.org/
-  [5]: https://expressjs.com/
-  [6]: https://nestjs.com/
+[1]: https://www.carbondesignsystem.com/
+[2]: https://the-carbon-components.netlify.com/
+[3]: https://getbootstrap.com/
+[4]: https://cordova.apache.org/
+[5]: https://expressjs.com/
+[6]: https://nestjs.com/

@@ -18,7 +18,7 @@ Extends the capability of your browser.
 
 ### Web Development
 
-- **[VisBug][5]** - open source web design debug tools: *FireBug for designers › Edit any webpage, in any state* ([demo][6])
+- **[VisBug][5]** - open source web design debug tools: _FireBug for designers › Edit any webpage, in any state_ ([demo][6])
 
 ## Windows
 
@@ -34,14 +34,12 @@ Works on your whole Windows system.
 - **[Insomnia][7]** - REST API dev tool
 - **[Postman][8]** - REST API dev tool
 
----
-
-  [1]: https://github.com/microsoft/PowerToys/releases/latest/
-  [2]: https://www.screentogif.com/
-  [3]: https://www.figma.com/
-  [4]: https://fontflipper.com/
-  [5]: https://github.com/GoogleChromeLabs/ProjectVisBug
-  [6]: https://visbug.web.app/
-  [7]: https://insomnia.rest/
-  [8]: https://postman.com/
-  [9]: https://dribbble.com/
+[1]: https://github.com/microsoft/PowerToys/releases/latest/
+[2]: https://www.screentogif.com/
+[3]: https://www.figma.com/
+[4]: https://fontflipper.com/
+[5]: https://github.com/GoogleChromeLabs/ProjectVisBug
+[6]: https://visbug.web.app/
+[7]: https://insomnia.rest/
+[8]: https://postman.com/
+[9]: https://dribbble.com/

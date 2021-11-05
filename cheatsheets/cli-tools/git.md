@@ -78,37 +78,41 @@ git checkout --track <remote-branch>  # create a new local branch which tracks t
 
 ### Unstaging commits
 
-```
+```sh
 git reset HEAD~1  # remove commits
 ```
 
 ### Rename commit messages
 
 1. To rename one or more of the last `n` commits use:
-```
+
+```sh
 git rebase -i HEAD~n
 ```
 
-2. Replace the keyword `pick` in front of the commits which should be renamed by the keyword `reword` (short `r`).
-3. Save and close the commit list file. 
-4. The resulting commit files open automatically, change the commit message.
+1. Replace the keyword `pick` in front of the commits which should be renamed by the keyword `reword` (short `r`).
+1. Save and close the commit list file.
+1. The resulting commit files open automatically, change the commit message.
 
 ### Showing the changes of a commit
 
 Use the `COMMIT` hash:
-```
+
+```sh
 git show COMMIT
 ```
 
 ### Pushing a detached head
 
 The general command looks like:
-```
+
+```sh
 git push <remote name> HEAD:<remote branch name>
 ```
 
 For example:
-```
+
+```sh
 git push origin HEAD:testing
 ```
 
@@ -133,4 +137,3 @@ To set new credentials use:
 git config --global user.name "Sandro Winkler"
 git config --global user.email "you@domain.com"
 ```
-
