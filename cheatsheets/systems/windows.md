@@ -28,7 +28,7 @@ pause
 ```bat
 @echo off
 
-echo Trying to turn on hyper visor launch (needs to be run as administrator) . . .
+echo Trying to turn off hyper visor launch (needs to be run as administrator) . . .
 echo.
 
 bcdedit /set hypervisorlaunchtype off
