@@ -1,7 +1,7 @@
 # TypeScript
 
-| Official docu | <https://www.typescriptlang.org/docs/> |
-| ------------- | -------------------------------------- |
+| Official documentation | <https://www.typescriptlang.org/docs/> |
+| ---------------------- | -------------------------------------- |
 
 Make sure to have Node.js, TypeScript, and some essential linting and styling tools installed:
 
@@ -27,8 +27,11 @@ You can init your project with this:
 ```sh
 mkdir project && cd project
 
+# npm setup
 npm init
 npm install --save-dev typescript @types/node ts-node
+
+# ts setup
 npx tsc --init --rootDir src --outDir dist --lib esnext
 mkdir src && touch src/index.ts
 ```
