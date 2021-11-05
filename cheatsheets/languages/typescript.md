@@ -8,17 +8,11 @@ sudo apt install nodejs
 npm install -g typescript@next
 ```
 
-## How to setup a TypeScript CLI?
+## Init Project
 
 For creating CLI applications, TypeScript can be really useful.
-Remember: for most frameworks a init procedure is available, for example:
 
-```sh
-npx create-react-app my-reactjs-app --typescript
-npx create-next-app my-nextjs-app --typescript
-```
-
-### Init Project
+### Bare CLI Setup
 
 You can init your project with this:
 
@@ -30,9 +24,9 @@ npx tsc --init --rootDir src --outDir dist --lib esnext
 mkdir src && touch src/index.ts
 ```
 
-For the available `lib` versions, check the [official docu][1]
+For the available `lib` versions, check the [official documentation][1].
 
-Start your IDE (preferrably VScode via `code .`) and add the following scripts to your `package.json` for CLI execution:
+Start your IDE (preferably VScode via `code .`) and add the following scripts to your `package.json` for CLI execution:
 
 ```json
 "scripts": {
@@ -48,7 +42,16 @@ You can now start your TypeScript CLI with:
 
 have fun and happy coding!
 
-### CLI Input
+### React.js & Next.js
+
+for most frameworks a init procedure is available, for example:
+
+```sh
+npx create-react-app my-reactjs-app --typescript
+npx create-next-app my-nextjs-app --typescript
+```
+
+## Handling CLI Input
 
 To accept CLI input, use `yargs`:
 
