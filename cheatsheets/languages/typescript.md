@@ -1,6 +1,7 @@
 # TypeScript
 
-Official documentation: <https://www.typescriptlang.org/docs/>
+| Official docu | <https://www.typescriptlang.org/docs/> |
+| ------------- | -------------------------------------- |
 
 Make sure to have Node.js, TypeScript, and some essential linting and styling tools installed:
 

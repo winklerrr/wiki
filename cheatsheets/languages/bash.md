@@ -1,7 +1,7 @@
 # Bash
 
 Make sure to use the newest bash version for all the cool new features.
-A good tutorial to update the current bash version can be found on <https://itnext.io/upgrading-bash-on-macos-7138bd1066ba>
+A good tutorial to update the current bash version can be found [here][tutorial].
 
 ## The Shebang
 
@@ -91,3 +91,5 @@ By surrounding the expressing with square brackets the `test` command gets execu
 
 Use double square brackets `[[ EXPRESSION ]]` for the updated `test` command.
 For portability on POSIX systems stay with single square brackets.
+
+[tutorial]: https://itnext.io/upgrading-bash-on-macos-7138bd1066ba

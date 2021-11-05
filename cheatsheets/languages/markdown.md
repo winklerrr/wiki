@@ -1,10 +1,11 @@
 # Markdown
 
+| Official page | <https://daringfireball.net/projects/markdown/> |
+| ------------- | ----------------------------------------------- |
+
 > A lightweight markup language for creating formatted text.
 
 &mdash; Wikipedia
-
-Official webpage: <https://daringfireball.net/projects/markdown/>
 
 ## Special Symbols
 

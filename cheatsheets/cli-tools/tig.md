@@ -1,8 +1,10 @@
 # Tig
 
-<https://jonas.github.io/tig/>
+| Official page | <https://jonas.github.io/tig/> |
+| ------------- | ------------------------------ |
+| Shortcuts     | <https://devhints.io/tig>      |
 
-`tig` is just `git` spelled backwards.
+**Fun fact:** `tig` is just `git` spelled backwards.
 
 ## General
 
@@ -37,4 +39,4 @@
 - `t` - tree
 - `y` - stash
 
-Source: <https://devhints.io/tig>
+| --------------- | ------------------------- |

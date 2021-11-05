@@ -1,17 +1,17 @@
 # Kali Linux 2021.3 with VirtualBox
 
-Kali Linux is a distribution for professional penetration testers.  
-The download can be found here: <https://www.kali.org/get-kali/>
-
-## Quotes
+| Official download | <https://www.kali.org/get-kali/> |
+| ----------------- | -------------------------------- |
 
 > If you need to ask, then Kali Linux is not the right distribution for you.
 
-&mdash; [Gilles on UnixExchange](https://unix.meta.stackexchange.com/a/5361/224262)
+&mdash; [Random Guy on UnixExchange][quote-guy]
 
 > The more quieter you become, the more able you are to hear.
 
-&mdash; [Rumi](https://www.goodreads.com/quotes/6822193-the-quieter-you-become-the-more-you-are-able-to)
+&mdash; [Rumi][quote-rumi]
+
+Kali Linux is a distribution for professional penetration testers.
 
 ## Shared Folder
 
@@ -43,3 +43,5 @@ How to add a shared folder in VirtualBox running `Kali Linux 2021.3` as guest an
 
 [1]: ./imgs/kali_1.png
 [2]: ./imgs/kali_2.png
+[quote-guy]: https://unix.meta.stackexchange.com/a/5361/224262
+[quote-rumi]: https://www.goodreads.com/quotes/6822193-the-quieter-you-become-the-more-you-are-able-to
