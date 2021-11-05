@@ -38,13 +38,12 @@ Start your IDE (preferably VScode via `code .`) and add the following scripts to
 You can now start your TypeScript CLI with:
 
 - `npm run start` - run your tool
-- `npm run live` - hot compile all `.ts` files according to your `ts-config.json`
-
-have fun and happy coding!
+- `npm run live` - hot compile all `.ts` files according to your `ts-config.json` (probably output in `./dist`)
+- `node dist/index.js` - run your main file from the output folder
 
 ### React.js & Next.js
 
-for most frameworks a init procedure is available, for example:
+For React and Next an official init procedure is available:
 
 ```sh
 npx create-react-app my-reactjs-app --typescript
