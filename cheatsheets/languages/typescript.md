@@ -1,5 +1,7 @@
 # TypeScript
 
+Official documentation: <https://www.typescriptlang.org/docs/>
+
 Make sure to have Node.js and TypeScript installed:
 
 ```sh
