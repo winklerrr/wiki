@@ -1,5 +1,10 @@
 # WSL
 
+> The Windows Subsystem for Linux lets developers run a GNU/Linux environment -- including most command-line tools, utilities, and applications -- directly on Windows, unmodified, without the overhead of a traditional virtual machine or dual-boot setup.
+
+&mdash; Microsoft 
+
+
 ## General settings
 
 In the WSL system, add the following lines to `/etc/wsl.conf`:
