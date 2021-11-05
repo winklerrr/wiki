@@ -1,4 +1,4 @@
-# TypeScript CheatSheet
+# TypeScript
 
 Make sure to have Node.js and TypeScript installed:
 
@@ -10,10 +10,9 @@ npm install -g typescript@next
 
 ## Init Project
 
-For creating CLI applications, TypeScript can be really useful.
-
 ### Bare CLI Setup
 
+For creating plain CLI applications, TypeScript can be really useful.
 You can init your project with this:
 
 ```sh
