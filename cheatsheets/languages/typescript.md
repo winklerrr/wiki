@@ -2,12 +2,18 @@
 
 Official documentation: <https://www.typescriptlang.org/docs/>
 
-Make sure to have Node.js and TypeScript installed:
+Make sure to have Node.js, TypeScript, and some essential linting and styling tools installed:
 
 ```sh
+# node
 sudo apt update && sudo apt upgrade
 sudo apt install nodejs
+
+# typescript
 npm install -g typescript@next
+
+# linting/styling
+npm install -g prettier eslint
 ```
 
 ## Init Project
@@ -19,6 +25,7 @@ You can init your project with this:
 
 ```sh
 mkdir project && cd project
+
 npm init
 npm install --save-dev typescript @types/node ts-node
 npx tsc --init --rootDir src --outDir dist --lib esnext
@@ -27,7 +34,38 @@ mkdir src && touch src/index.ts
 
 For the available `lib` versions, check the [official documentation][1].
 
-Start your IDE (preferably VScode via `code .`) and add the following scripts to your `package.json` for CLI execution:
+For the linting/styling part, add the following packages:
+
+```sh
+npm install --save-dev eslint-config-airbnb eslint-config-prettier eslint-plugin-prettier
+touch .eslintrc.json .prettierrc
+```
+
+Now start your IDE (preferably VScode via `code .`).
+For linting setup add the following lines to your `.eslint.json`:
+
+```json
+{
+  "extends": ["airbnb", "prettier"],
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": ["error"]
+  }
+}
+```
+
+Your `.prettierrc` should look like this:
+
+```json
+{
+  "semi": true,
+  "trailingComma": "all",
+  "singleQuote": true,
+  "printWidth": 80
+}
+```
+
+Add some start scripts to your `package.json` for CLI execution:
 
 ```json
 "scripts": {
