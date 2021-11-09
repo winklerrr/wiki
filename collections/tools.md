@@ -31,7 +31,7 @@ Works on your whole Windows system.
 
 ### Development
 
-- **[Insomnia][isomnia]** - REST API dev tool
+- **[Insomnia][insomnia]** - REST API dev tool
 - **[Postman][postman]** - REST API dev tool
 
 [dribbble]: https://dribbble.com/
