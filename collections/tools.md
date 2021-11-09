@@ -2,7 +2,7 @@
 
 A list of useful tools for every day work and fun.
 
-## Web-Apps
+## Web Applications
 
 Available as web application for instant usage.
 
@@ -18,9 +18,10 @@ Extends the capability of your browser.
 
 ### Web Development
 
-- **[VisBug][visbug]** - open source web design debug tools: _FireBug for designers › Edit any webpage, in any state_ ([demo][visbug-demo])
+- **[VisBug][visbug]** - open source web design debug tools: _FireBug for designers › Edit any webpage, in any state_
+  - [Demo & Tutorial][visbug-demo]
 
-## Windows
+## Windows Natives
 
 Works on your whole Windows system.
 
@@ -28,6 +29,8 @@ Works on your whole Windows system.
 
 - **[PowerToys][powertoys]** - Windows system utilities to maximize productivity
 - **[ScreenToGIF][screen2gif]** - record screen videos and convert them to GIFs
+- **[Terminal][terminal]** - The new Windows Terminal and the original Windows console host, all in the same place!
+  - [How to install without Windows Store][terminal2]
 
 ### Development
 
@@ -41,5 +44,7 @@ Works on your whole Windows system.
 [postman]: https://postman.com/
 [powertoys]: https://github.com/microsoft/PowerToys/releases/latest/
 [screen2gif]: https://www.screentogif.com/
+[terminal]: https://github.com/microsoft/terminal
+[terminal2]: https://hackmd.io/@ss14/windows-terminal
 [visbug]: https://github.com/GoogleChromeLabs/ProjectVisBug
 [visbug-demo]: https://visbug.web.app/
