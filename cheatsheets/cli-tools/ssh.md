@@ -5,7 +5,13 @@
 To create a new SSH (secure shell) key:
 
 ```sh
-ssh-keygen -t rsa -C "your_email@example.com"
+ssh-keygen -t ed25519 -C "your_email@example.com"
+```
+
+Or for legacy reasons:
+
+```sh
+ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 ```
 
 ## Chown
@@ -25,7 +31,7 @@ To add a new key to the local SSH agent:
 
 ```sh
 eval `ssh-agent`
-ssh-add ./id_rsa
+ssh-add ~/.ssh/id_rsa
 ```
 
 ## Copy
