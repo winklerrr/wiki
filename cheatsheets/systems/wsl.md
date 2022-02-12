@@ -24,3 +24,12 @@ Host github.com
  Hostname ssh.github.com
  Port 443
 ```
+
+## Sourcetree
+
+To enable Sourcetree to work properly with a repo based inside WSL, make sure to correctly set the git config with the following commands:
+
+```sh
+git config core.autocrlf true
+git config core.filemode false
+```
