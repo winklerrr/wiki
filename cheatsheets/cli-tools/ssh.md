@@ -14,6 +14,8 @@ Or for legacy reasons:
 ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 ```
 
+Pay attention: adding a passphrase to the ssh key file may lead to errors when using VSCode's integrated git tool.
+
 ## Chown
 
 To set the correct access rights of the key files:
