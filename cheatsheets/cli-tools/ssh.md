@@ -47,6 +47,8 @@ cat ~/.ssh/id_rsa.pub | copy
 
 ## Convert
 
+### OpenSSH 
+
 To convert a SSH2 key to the OpenSSH format:
 
 ```sh
@@ -56,3 +58,7 @@ ssh-keygen -i -f ssh2.pub
 # directly write to a file
 ssh-keygen -i -f ssh2.pub > openssh.pub
 ```
+
+### PuTTY
+
+To convert a SSH key to the PuTTY format, install the official PuTTY tools from: <https://www.puttygen.com/>.
