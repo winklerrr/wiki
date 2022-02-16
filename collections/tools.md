@@ -20,6 +20,11 @@ Extends the capability of your browser.
 
 - **[VisBug][visbug]** - open source web design debug tools: _FireBug for designers › Edit any webpage, in any state_
   - [Demo & Tutorial][visbug-demo]
+- **[Web Developer][web-developer]** - adds various web developer tools to a browser
+
+### Pentesting
+
+- **[HTML5 Form validation remover][novalidate]** - adds the `novalidate` flag to all form fields
 
 ## Windows Natives
 
@@ -41,6 +46,7 @@ Works on your whole Windows system.
 [figma]: https://www.figma.com/
 [fontflipper]: https://fontflipper.com/
 [insomnia]: https://insomnia.rest/
+[novalidate]: https://chrome.google.com/webstore/detail/html5-form-validation-rem/dcpagcgkpeflhhampddilklcnjdjlmlb/
 [postman]: https://postman.com/
 [powertoys]: https://github.com/microsoft/PowerToys/releases/latest/
 [screen2gif]: https://www.screentogif.com/
@@ -48,3 +54,4 @@ Works on your whole Windows system.
 [terminal2]: https://hackmd.io/@ss14/windows-terminal
 [visbug]: https://github.com/GoogleChromeLabs/ProjectVisBug
 [visbug-demo]: https://visbug.web.app/
+[web-developer]: https://chrispederick.com/work/web-developer/
