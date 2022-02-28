@@ -2,7 +2,8 @@
 
 Welcome to my wiki! 👨‍🏫
 
-Here I collect all kinds of useful and interesting information that I found somewhere deep down on the Internet and of which I thought it might come in handy at some point.
+This wiki collects all kinds of useful and interesting information that I found somewhere deep down the Internet!  
+Because I thought, it might come in handy at some point, I saved it here.
 
 Happy hacking! 🐱‍💻  
 winklerrr

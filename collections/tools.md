@@ -22,10 +22,6 @@ Extends the capability of your browser.
   - [Demo & Tutorial][visbug-demo]
 - **[Web Developer][web-developer]** - adds various web developer tools to a browser
 
-### Pentesting
-
-- **[HTML5 Form validation remover][novalidate]** - adds the `novalidate` flag to all form fields
-
 ## Windows Natives
 
 Works on your whole Windows system.
@@ -46,7 +42,6 @@ Works on your whole Windows system.
 [figma]: https://www.figma.com/
 [fontflipper]: https://fontflipper.com/
 [insomnia]: https://insomnia.rest/
-[novalidate]: https://chrome.google.com/webstore/detail/html5-form-validation-rem/dcpagcgkpeflhhampddilklcnjdjlmlb/
 [postman]: https://postman.com/
 [powertoys]: https://github.com/microsoft/PowerToys/releases/latest/
 [screen2gif]: https://www.screentogif.com/
